@@ -1,3 +1,4 @@
 
 import Layout from './Layout';
-export { Layout };
+import NextJsLinkWrapper from './NextJsLinkWrapper';
+export { Layout, NextJsLinkWrapper };
