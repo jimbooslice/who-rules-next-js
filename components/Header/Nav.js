@@ -38,14 +38,14 @@ const Nav = () => {
                     <NextJsLinkWrapper href='/about'>
                         <Tab label="About Us" />    
                     </NextJsLinkWrapper>
-                    <NextJsLinkWrapper href='/item'>
+                    <NextJsLinkWrapper href='/games'>
                         <Tab label="Games" />
                     </NextJsLinkWrapper>
-                    <NextJsLinkWrapper href='/item'>
+                    <NextJsLinkWrapper href='/events'>
                         <Tab label="Events" />
                     </NextJsLinkWrapper>
                     
-                    <NextJsLinkWrapper href='/contact'> 
+                    <NextJsLinkWrapper href='/store'> 
                         <Tab label="Store (TBD)" />
                     </NextJsLinkWrapper>
                    
@@ -53,8 +53,10 @@ const Nav = () => {
             </Grid>
             <Grid item xs={2} className={classes.gridItem} >
                 <Tabs centered className={classes.tab}>
+                <NextJsLinkWrapper href='/login'> 
                     <Tab label="Login" />
-
+                </NextJsLinkWrapper>
+                
                 </Tabs>
             </Grid>
         </Grid>
